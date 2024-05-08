@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gavpi>
+  <Database />
+  <Action_Sequence name="Speaking test" type="Action_Sequence" comment="" random="False">
+    <Action type="Speak" value="Hello World" />
+    <Action type="Wait" value="1000" />
+    <Action type="Speak" value="Goodbye World" />
+  </Action_Sequence>
+  <Action_Sequence name="Undo" type="Action_Sequence" comment="Ctrl+Z" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="Z" />
+    <Action type="Wait" value="10" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Complete Task" type="Action_Sequence" comment="Says complete" random="False">
+    <Action type="Speak" value="Complete" />
+  </Action_Sequence>
+  <Action_Sequence name="Redo" type="Action_Sequence" comment="Ctrl+y" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="Y" />
+    <Action type="Wait" value="10" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="New File" type="Action_Sequence" comment="Ctrl+N" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="N" />
+    <Action type="Wait" value="10" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Enter" type="Action_Sequence" comment="Enter" random="False">
+    <Action type="KeyPress" value="Enter" />
+  </Action_Sequence>
+  <Action_Sequence name="Capitalization" type="Action_Sequence" comment="Shift" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="a" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="A" />
+  </Action_Sequence>
+  <Action_Sequence name="b" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="B" />
+  </Action_Sequence>
+  <Action_Sequence name="c" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="C" />
+  </Action_Sequence>
+  <Action_Sequence name="d" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D" />
+  </Action_Sequence>
+  <Action_Sequence name="f" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="F" />
+  </Action_Sequence>
+  <Action_Sequence name="g" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="G" />
+  </Action_Sequence>
+  <Action_Sequence name="h" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="H" />
+  </Action_Sequence>
+  <Action_Sequence name="i" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="I" />
+  </Action_Sequence>
+  <Action_Sequence name="j" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="J" />
+  </Action_Sequence>
+  <Action_Sequence name="k" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="K" />
+  </Action_Sequence>
+  <Action_Sequence name="l" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="L" />
+  </Action_Sequence>
+  <Action_Sequence name="m" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="M" />
+  </Action_Sequence>
+  <Action_Sequence name="n" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="N" />
+  </Action_Sequence>
+  <Action_Sequence name="o" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="O" />
+  </Action_Sequence>
+  <Action_Sequence name="p" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="P" />
+  </Action_Sequence>
+  <Action_Sequence name="q" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Q" />
+  </Action_Sequence>
+  <Action_Sequence name="r" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="R" />
+  </Action_Sequence>
+  <Action_Sequence name="s" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="S" />
+  </Action_Sequence>
+  <Action_Sequence name="t" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="T" />
+  </Action_Sequence>
+  <Action_Sequence name="u" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="U" />
+  </Action_Sequence>
+  <Action_Sequence name="v" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="V" />
+  </Action_Sequence>
+  <Action_Sequence name="w" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="W" />
+  </Action_Sequence>
+  <Action_Sequence name="x" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="X" />
+  </Action_Sequence>
+  <Action_Sequence name="y" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Y" />
+  </Action_Sequence>
+  <Action_Sequence name="z" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Z" />
+  </Action_Sequence>
+  <Action_Sequence name="space" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Space" />
+  </Action_Sequence>
+  <Action_Sequence name="dash" type="Action_Sequence" comment="-" random="False">
+    <Action type="KeyPress" value="Subtract" />
+  </Action_Sequence>
+  <Action_Sequence name="underscore" type="Action_Sequence" comment="_" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="Subtract" />
+  </Action_Sequence>
+  <Action_Sequence name="Backspace" type="Action_Sequence" comment="Type backspace" random="False">
+    <Action type="KeyPress" value="Back" />
+  </Action_Sequence>
+  <Action_Sequence name="Undo Cap" type="Action_Sequence" comment="Makes sure only one letter is capitalized" random="False">
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Number Lock" type="Action_Sequence" comment="Toggle NumLock" random="False">
+    <Action type="KeyPress" value="NumLock" />
+  </Action_Sequence>
+  <Action_Sequence name="1" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D1" />
+  </Action_Sequence>
+  <Action_Sequence name="2" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D2" />
+  </Action_Sequence>
+  <Action_Sequence name="3" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D3" />
+  </Action_Sequence>
+  <Action_Sequence name="4" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D4" />
+  </Action_Sequence>
+  <Action_Sequence name="5" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D5" />
+  </Action_Sequence>
+  <Action_Sequence name="6" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D6" />
+  </Action_Sequence>
+  <Action_Sequence name="7" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D7" />
+  </Action_Sequence>
+  <Action_Sequence name="8" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D8" />
+  </Action_Sequence>
+  <Action_Sequence name="9" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D9" />
+  </Action_Sequence>
+  <Action_Sequence name="0" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="D0" />
+  </Action_Sequence>
+  <Action_Sequence name="left" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Left" />
+  </Action_Sequence>
+  <Action_Sequence name="right" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Right" />
+  </Action_Sequence>
+  <Action_Sequence name="up" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Up" />
+  </Action_Sequence>
+  <Action_Sequence name="down" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="Down" />
+  </Action_Sequence>
+  <Action_Sequence name="Next" type="Action_Sequence" comment="tab" random="False">
+    <Action type="KeyPress" value="Tab" />
+  </Action_Sequence>
+  <Action_Sequence name="New Tool Confirmation" type="Action_Sequence" comment="" random="False">
+    <Action type="Wait" value="100" />
+    <Action type="Speak" value="new tool selected" />
+  </Action_Sequence>
+  <Action_Sequence name="Compliment Reciever" type="Action_Sequence" comment="Takes in complementary phrases" random="False">
+    <Action type="Wait" value="60" />
+    <Action type="Speak" value="You're Welcome!" />
+  </Action_Sequence>
+  <Action_Sequence name="Open" type="Action_Sequence" comment="Ctrl+O" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="O" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Close" type="Action_Sequence" comment="Ctrl+w" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="W" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Close All" type="Action_Sequence" comment="Alt+Ctrl+W" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyDown" value="Alt" />
+    <Action type="KeyPress" value="W" />
+    <Action type="KeyUp" value="ControlKey" />
+    <Action type="KeyUp" value="Alt" />
+  </Action_Sequence>
+  <Action_Sequence name="Save As" type="Action_Sequence" comment="Alt+Ctrl+s" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyDown" value="Alt" />
+    <Action type="KeyPress" value="S" />
+    <Action type="KeyUp" value="ControlKey" />
+    <Action type="KeyUp" value="Alt" />
+  </Action_Sequence>
+  <Action_Sequence name="Save" type="Action_Sequence" comment="Ctrl+s" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="S" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Print" type="Action_Sequence" comment="Ctrl+P" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="P" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Cut" type="Action_Sequence" comment="Ctrl+X" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="X" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Copy" type="Action_Sequence" comment="Ctrl+c" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="C" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Paste" type="Action_Sequence" comment="Ctrl+v" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="V" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="New Layer" type="Action_Sequence" comment="Shift+Ctrl+N" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="N" />
+    <Action type="KeyUp" value="ControlKey" />
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Merge Visible Layers" type="Action_Sequence" comment="Shift+Ctrl+E" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="E" />
+    <Action type="KeyUp" value="ShiftKey" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Select All" type="Action_Sequence" comment="Ctrl+A" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="A" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Deselect" type="Action_Sequence" comment="Ctrl+D" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="D" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Invert Selection" type="Action_Sequence" comment="Shift+Ctrl+I" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="I" />
+    <Action type="KeyUp" value="ShiftKey" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Zoom in" type="Action_Sequence" comment="Ctrl++" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="Add" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Zoom Out" type="Action_Sequence" comment="Ctrl+-" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="Subtract" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Fit to Screen" type="Action_Sequence" comment="Ctrl+0" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="D0" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Toggle Rulers" type="Action_Sequence" comment="Ctrl+R" random="False">
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="R" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Left Click" type="Action_Sequence" comment="" random="False">
+    <Action type="MouseKeyPress" value="Left" />
+  </Action_Sequence>
+  <Action_Sequence name="Right Click" type="Action_Sequence" comment="" random="False">
+    <Action type="MouseKeyPress" value="Right" />
+  </Action_Sequence>
+  <Action_Sequence name="e" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="E" />
+  </Action_Sequence>
+  <Action_Sequence name="Key Test" type="Action_Sequence" comment="" random="False">
+    <Action type="KeyPress" value="OemPeriod" />
+  </Action_Sequence>
+  <Action_Sequence name="period" type="Action_Sequence" comment="." random="False">
+    <Action type="KeyPress" value="OemPeriod" />
+  </Action_Sequence>
+  <Action_Sequence name="Open Bracket" type="Action_Sequence" comment="[" random="False">
+    <Action type="KeyPress" value="OemOpenBrackets" />
+  </Action_Sequence>
+  <Action_Sequence name="Close Bracket" type="Action_Sequence" comment="]" random="False">
+    <Action type="KeyPress" value="OemCloseBrackets" />
+  </Action_Sequence>
+  <Action_Sequence name="Squiggle Open Bracket" type="Action_Sequence" comment="{" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="OemOpenBrackets" />
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Squiggle Close Bracket" type="Action_Sequence" comment="}" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="OemCloseBrackets" />
+    <Action type="KeyUp" value="OemCloseBrackets" />
+  </Action_Sequence>
+  <Action_Sequence name="comma" type="Action_Sequence" comment="," random="False">
+    <Action type="KeyPress" value="Oemcomma" />
+  </Action_Sequence>
+  <Action_Sequence name="Less than" type="Action_Sequence" comment="&lt;" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="Oemcomma" />
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Greater than" type="Action_Sequence" comment="&gt;" random="False">
+    <Action type="KeyDown" value="ShiftKey" />
+    <Action type="KeyPress" value="OemPeriod" />
+    <Action type="KeyUp" value="ShiftKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Alt" type="Action_Sequence" comment="Alt" random="False">
+    <Action type="KeyPress" value="Menu" />
+  </Action_Sequence>
+  <Action_Sequence name="Refine Edge" type="Action_Sequence" comment="Alt+Ctrl+R" random="False">
+    <Action type="KeyDown" value="Menu" />
+    <Action type="KeyDown" value="ControlKey" />
+    <Action type="KeyPress" value="R" />
+    <Action type="KeyUp" value="Menu" />
+    <Action type="KeyUp" value="ControlKey" />
+  </Action_Sequence>
+  <Action_Sequence name="Opened" type="Action_Sequence" comment="says Opened" random="False">
+    <Action type="Speak" value="Opened" />
+  </Action_Sequence>
+  <Trigger name="undo" value="undo" type="Phrase" comment="">
+    <Trigger_Event name="Undo" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="redo" value="redo" type="Phrase" comment="">
+    <Trigger_Event name="Redo" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="new file" value="new file" type="Phrase" comment="">
+    <Trigger_Event name="New File" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="hello world" value="hello world" type="Phrase" comment="">
+    <Trigger_Event name="Speaking test" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="next" value="next" type="Phrase" comment="">
+    <Trigger_Event name="Next" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="enter" value="enter" type="Phrase" comment="">
+    <Trigger_Event name="Enter" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type a" value="type a" type="Phrase" comment="">
+    <Trigger_Event name="a" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type b" value="type b" type="Phrase" comment="">
+    <Trigger_Event name="b" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type c" value="type c" type="Phrase" comment="">
+    <Trigger_Event name="c" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type d" value="type d" type="Phrase" comment="">
+    <Trigger_Event name="d" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type e" value="type e" type="Phrase" comment="">
+    <Trigger_Event name="e" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type f" value="type f" type="Phrase" comment="">
+    <Trigger_Event name="f" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type g" value="type g" type="Phrase" comment="">
+    <Trigger_Event name="g" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type h" value="type h" type="Phrase" comment="">
+    <Trigger_Event name="h" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type i" value="type i" type="Phrase" comment="">
+    <Trigger_Event name="i" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type j" value="type j" type="Phrase" comment="">
+    <Trigger_Event name="j" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type k" value="type k" type="Phrase" comment="">
+    <Trigger_Event name="k" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type l" value="type l" type="Phrase" comment="">
+    <Trigger_Event name="l" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type m" value="type m" type="Phrase" comment="">
+    <Trigger_Event name="m" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type n" value="type n" type="Phrase" comment="">
+    <Trigger_Event name="n" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type o" value="type o" type="Phrase" comment="">
+    <Trigger_Event name="o" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type p" value="type p" type="Phrase" comment="">
+    <Trigger_Event name="p" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type q" value="type q" type="Phrase" comment="">
+    <Trigger_Event name="q" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type r" value="type r" type="Phrase" comment="">
+    <Trigger_Event name="r" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type s" value="type s" type="Phrase" comment="">
+    <Trigger_Event name="s" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type t" value="type t" type="Phrase" comment="">
+    <Trigger_Event name="t" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type u" value="type u" type="Phrase" comment="">
+    <Trigger_Event name="u" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type v" value="type v" type="Phrase" comment="">
+    <Trigger_Event name="v" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type w" value="type w" type="Phrase" comment="">
+    <Trigger_Event name="w" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type x" value="type x" type="Phrase" comment="">
+    <Trigger_Event name="x" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type y" value="type y" type="Phrase" comment="">
+    <Trigger_Event name="y" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type z" value="type z" type="Phrase" comment="">
+    <Trigger_Event name="z" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital a" value="type capital a" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="a" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital b" value="type capital b" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="b" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital c" value="type capital c" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="c" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital d" value="type capital d" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="d" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital e" value="type capital e" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="e" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital f" value="type capital f" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="f" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital g" value="type capital g" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="g" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital h" value="type capital h" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="h" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital i" value="type capital i" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="i" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital j" value="type capital j" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="j" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital k" value="type capital k" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="k" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital l" value="type capital l" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="l" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital m" value="type capital m" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="m" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital n" value="type capital n" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="n" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital o" value="type capital o" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="o" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital p" value="type capital p" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="p" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital q" value="type capital q" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="q" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital r" value="type capital r" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="r" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital s" value="type capital s" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="s" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital t" value="type capital t" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="t" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital u" value="type capital u" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="u" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital v" value="type capital v" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="v" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital w" value="type capital w" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="w" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital x" value="type capital x" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="x" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital y" value="type capital y" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="y" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type capital z" value="type capital z" type="Phrase" comment="">
+    <Trigger_Event name="Capitalization" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="z" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Undo Cap" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type space" value="type space" type="Phrase" comment="">
+    <Trigger_Event name="space" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type dash" value="type dash" type="Phrase" comment="">
+    <Trigger_Event name="dash" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type underscore" value="type underscore" type="Phrase" comment="">
+    <Trigger_Event name="underscore" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type period" value="type period" type="Phrase" comment="">
+    <Trigger_Event name="period" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="backspace" value="backspace" type="Phrase" comment="">
+    <Trigger_Event name="Backspace" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="toggle number lock" value="toggle number lock" type="Phrase" comment="">
+    <Trigger_Event name="Number Lock" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 1" value="type 1" type="Phrase" comment="">
+    <Trigger_Event name="1" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 2" value="type 2" type="Phrase" comment="">
+    <Trigger_Event name="2" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 3" value="type 3" type="Phrase" comment="">
+    <Trigger_Event name="3" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 4" value="type 4" type="Phrase" comment="">
+    <Trigger_Event name="4" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 5" value="type 5" type="Phrase" comment="">
+    <Trigger_Event name="5" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 6" value="type 6" type="Phrase" comment="">
+    <Trigger_Event name="6" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 7" value="type 7" type="Phrase" comment="">
+    <Trigger_Event name="7" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 8" value="type 8" type="Phrase" comment="">
+    <Trigger_Event name="8" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 9" value="type 9" type="Phrase" comment="">
+    <Trigger_Event name="9" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="type 0" value="type 0" type="Phrase" comment="">
+    <Trigger_Event name="0" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="go left" value="go left" type="Phrase" comment="">
+    <Trigger_Event name="left" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="go right" value="go right" type="Phrase" comment="">
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="go up" value="go up" type="Phrase" comment="">
+    <Trigger_Event name="up" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="go down" value="go down" type="Phrase" comment="">
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="thank you" value="thank you" type="Phrase" comment="">
+    <Trigger_Event name="Compliment Reciever" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="zoom" value="zoom" type="Phrase" comment="">
+    <Trigger_Event name="z" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="hand" value="hand" type="Phrase" comment="">
+    <Trigger_Event name="h" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="move" value="move" type="Phrase" comment="">
+    <Trigger_Event name="v" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="lasso" value="lasso" type="Phrase" comment="">
+    <Trigger_Event name="l" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="select" value="select" type="Phrase" comment="">
+    <Trigger_Event name="m" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="red eye removal" value="red eye removal" type="Phrase" comment="">
+    <Trigger_Event name="y" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="spot brush" value="spot bush" type="Phrase" comment="">
+    <Trigger_Event name="j" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="smart brush" value="smart brush" type="Phrase" comment="">
+    <Trigger_Event name="f" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="clone stamp" value="clone stamp" type="Phrase" comment="">
+    <Trigger_Event name="s" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="blur" value="blur" type="Phrase" comment="">
+    <Trigger_Event name="r" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="sponge" value="sponge" type="Phrase" comment="">
+    <Trigger_Event name="o" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="brush" value="brush" type="Phrase" comment="">
+    <Trigger_Event name="b" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="eraser" value="eraser" type="Phrase" comment="">
+    <Trigger_Event name="e" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="bucket" value="bucket" type="Phrase" comment="">
+    <Trigger_Event name="k" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="gradient" value="gradient" type="Phrase" comment="">
+    <Trigger_Event name="g" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="color picker" value="color picker" type="Phrase" comment="">
+    <Trigger_Event name="i" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="pencil" value="pencil" type="Phrase" comment="">
+    <Trigger_Event name="b" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="b" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="text" value="text" type="Phrase" comment="">
+    <Trigger_Event name="t" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="crop" value="crop" type="Phrase" comment="">
+    <Trigger_Event name="c" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="open" value="open" type="Phrase" comment="">
+    <Trigger_Event name="Open" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="close" value="close" type="Phrase" comment="">
+    <Trigger_Event name="Close" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="close all" value="close all" type="Phrase" comment="">
+    <Trigger_Event name="Close All" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="save as" value="save as" type="Phrase" comment="">
+    <Trigger_Event name="Save As" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="save" value="save" type="Phrase" comment="">
+    <Trigger_Event name="Save" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="print" value="print" type="Phrase" comment="">
+    <Trigger_Event name="Print" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="new layer" value="new layer" type="Phrase" comment="">
+    <Trigger_Event name="New Layer" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="merge layers" value="merge layers" type="Phrase" comment="">
+    <Trigger_Event name="Merge Visible Layers" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="select all" value="select all" type="Phrase" comment="">
+    <Trigger_Event name="Select All" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="deselect" value="deselect" type="Phrase" comment="">
+    <Trigger_Event name="Deselect" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="invert selection" value="invert selection" type="Phrase" comment="">
+    <Trigger_Event name="Invert Selection" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="refine edge" value="refine edge" type="Phrase" comment="">
+    <Trigger_Event name="Refine Edge" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="zoom in" value="zoom in" type="Phrase" comment="">
+    <Trigger_Event name="Zoom in" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="zoom out" value="zoom out" type="Phrase" comment="">
+    <Trigger_Event name="Zoom Out" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="fit to screen" value="fit to screen" type="Phrase" comment="">
+    <Trigger_Event name="Fit to Screen" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="toggle rulers" value="toggle rulers" type="Phrase" comment="">
+    <Trigger_Event name="Toggle Rulers" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="cut" value="cut" type="Phrase" comment="">
+    <Trigger_Event name="Cut" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="copy" value="copy" type="Phrase" comment="">
+    <Trigger_Event name="Copy" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="paste" value="paste" type="Phrase" comment="">
+    <Trigger_Event name="Paste" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="left click" value="left click" type="Phrase" comment="">
+    <Trigger_Event name="Left Click" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="right click" value="right click" type="Phrase" comment="">
+    <Trigger_Event name="Right Click" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="quick select" value="quick select" type="Phrase" comment="">
+    <Trigger_Event name="a" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="decrease size" value="decrease size" type="Phrase" comment="">
+    <Trigger_Event name="Open Bracket" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="increase size" value="increase size" type="Phrase" comment="">
+    <Trigger_Event name="Close Bracket" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="decrease hardness" value="decrease hardness" type="Phrase" comment="">
+    <Trigger_Event name="Squiggle Open Bracket" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="increase hardness" value="increase hardness" type="Phrase" comment="">
+    <Trigger_Event name="Squiggle Close Bracket" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="previous brush" value="previous brush" type="Phrase" comment="">
+    <Trigger_Event name="comma" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="next brush" value="next brush" type="Phrase" comment="">
+    <Trigger_Event name="period" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="first brush" value="first brush" type="Phrase" comment="">
+    <Trigger_Event name="Less than" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="last brush" value="last brush" type="Phrase" comment="">
+    <Trigger_Event name="Greater than" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access menu" value="access menu" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access file" value="access file" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access edit" value="access edit" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access enhance" value="access enhance" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access layer" value="access layer" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access select" value="access select" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access filter" value="access filter" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access view" value="access view" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access window" value="access window" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access help" value="access help" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="access image" value="access image" type="Phrase" comment="">
+    <Trigger_Event name="Alt" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="right" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="down" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="toggle toolbars" value="toggle toolbars" type="Phrase" comment="">
+    <Trigger_Event name="Next" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Complete Task" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="pen" value="pen" type="Phrase" comment="">
+    <Trigger_Event name="p" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="New Tool Confirmation" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+  <Trigger name="color menu" value="color menu" type="Phrase" comment="">
+    <Trigger_Event name="n" type="Action_Sequence" value="" comment="" />
+    <Trigger_Event name="Opened" type="Action_Sequence" value="" comment="" />
+  </Trigger>
+</gavpi>
